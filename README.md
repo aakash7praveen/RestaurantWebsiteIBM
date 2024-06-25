@@ -21,11 +21,13 @@ Features
 Setup
 
 1. Clone the Repository
-git clone https://github.com/aakash7praveen/delicious-den.git
-cd delicious-den
-2. Open the HTML File
+
+   git clone https://github.com/aakash7praveen/delicious-den.git
+
+   cd delicious-den
+3. Open the HTML File
 Open the index.html file in your preferred web browser to view the website.
-3. Ensure Internet Connectivity
+4. Ensure Internet Connectivity
 Ensure you have an active internet connection to load the Bootstrap CSS, JS libraries, and Watson Assistant script.
 
 Usage
@@ -44,9 +46,11 @@ The website integrates an interactive chatbot using IBM Watson Assistant to enha
 1. Create an IBM Watson Assistant Instance
 
    Sign up or log in to IBM Cloud.
+   
    Create a Watson Assistant service instance.
+   
    Configure your assistant and note down the integrationID, region, and serviceInstanceID.
-2. Add Watson Assistant Script
+3. Add Watson Assistant Script
 
    Add the script provided in the ChatBot_MOMO
 4. Customize the Chatbot
