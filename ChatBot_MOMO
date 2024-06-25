@@ -1,0 +1,14 @@
+IBM Watson Chatbot implemented using watsonx Assistant
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "5d8dd07e-4112-4eb3-b38a-de46c3d030ad", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "36f67f18-de0b-4ad6-bd53-d62d70a12e2d", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
